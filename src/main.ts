@@ -2,9 +2,9 @@ require('dotenv').config()
 import server from "./server";
 import { SQLUserDataSource } from './data/data-sources/sql/user-source'
 import UserRouter from './presentation/routers/user-router'
-import { GetAllUsers } from "./domain/use-cases/user/get-all-users";
-import { CreateUser } from "./domain/use-cases/user/create-user";
-import { UserRepositoryImpl } from "./domain/repositories/user-repository";
+import { GetAllUsers } from "./domain/user/use-cases/user/get-all-users";
+import { CreateUser } from "./domain/user/use-cases/user/create-user";
+import { UserRepositoryImpl } from "./domain/user/repositories/user-repository";
 import {sequelize} from './setup/database/connection'
 import dbInit from './setup/database/init'
 

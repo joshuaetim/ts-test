@@ -1,4 +1,4 @@
-import { UserRequestModel, UserResponseModel } from "../../../domain/models/user";
+import { UserRequestModel, UserResponseModel } from "../../../domain/user/models/user";
 import { UserDataSource } from "../../interfaces/data-sources/user-data-source";
 
 export class ObjectUserDataSource implements UserDataSource {

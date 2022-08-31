@@ -1,4 +1,4 @@
-import { UserDataSource } from "../../data/interfaces/data-sources/user-data-source";
+import { UserDataSource } from "../../../data/interfaces/data-sources/user-data-source";
 import { UserRequestModel, UserResponseModel } from "../models/user";
 import { UserRepository } from "../interfaces/repositories/user-repo";
 

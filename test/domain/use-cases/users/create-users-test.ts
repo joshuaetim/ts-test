@@ -1,6 +1,6 @@
-import { UserRequestModel, UserResponseModel } from "../../../../src/domain/models/user";
-import { UserRepository } from "../../../../src/domain/interfaces/repositories/user-repo";
-import { CreateUser } from "../../../../src/domain/use-cases/user/create-user";
+import { UserRequestModel, UserResponseModel } from "../../../../src/domain/user/models/user";
+import { UserRepository } from "../../../../src/domain/user/interfaces/repositories/user-repo";
+import { CreateUser } from "../../../../src/domain/user/use-cases/user/create-user";
 
 describe("create a new contact use case", () => {
     class MockUserRepository implements UserRepository {

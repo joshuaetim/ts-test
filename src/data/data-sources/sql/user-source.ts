@@ -1,5 +1,5 @@
 import { Sequelize, QueryTypes, Transaction } from 'sequelize';
-import { UserRequestModel, UserResponseModel } from '../../../domain/models/user';
+import { UserRequestModel, UserResponseModel } from '../../../domain/user/models/user';
 import { UserDataSource } from '../../interfaces/data-sources/user-data-source';
 import User from './user-model';
 const moment = require('moment');

@@ -1,7 +1,7 @@
 import express from 'express'
 import { Request, Response } from 'express'
-import {CreateUserUseCase} from '../../domain/interfaces/use-cases/create-user-uc'
-import {GetAllUsersUseCase} from '../../domain/interfaces/use-cases/get-all-users-uc'
+import {CreateUserUseCase} from '../../domain/user/interfaces/use-cases/create-user-uc'
+import {GetAllUsersUseCase} from '../../domain/user/interfaces/use-cases/get-all-users-uc'
 
 export default function UserRouter(
     getAllUsersUseCase: GetAllUsersUseCase,

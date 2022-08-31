@@ -1,4 +1,4 @@
-import { UserRequestModel, UserResponseModel } from "../../../domain/models/user";
+import { UserRequestModel, UserResponseModel } from "../../../domain/user/models/user";
 
 export interface UserDataSource {
     create(user: UserRequestModel): void;
